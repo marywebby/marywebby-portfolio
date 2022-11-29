@@ -1,5 +1,22 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+:root {
+    --background-color: palegreen;
+}
+
+body {
+    background-color: palegreen;
+}
+
+h1 {
+    padding: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    color: darkgreen;
+}
+
+* ul {
+    font-family: monospace;
+    font-style: oblique;
+    font-size: 30px;
+    color: forestgreen;
 }
