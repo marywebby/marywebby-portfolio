@@ -1,22 +1,63 @@
+/* make sure to style the other elements the same way for about me, contact, and work */
 :root {
-    --background-color: palegreen;
+    --background-color:
 }
 
 body {
-    background-color: palegreen;
+    background-color: #9ccbb8;
+}
+
+#title {
+    display: inline;
 }
 
 h1 {
-    padding: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    font-size: 60px;
-    color: darkgreen;
+    font-style:normal; 
+    font-size: 65px;
+    color: white;
+    /* padding: 45px; */
+    /* padding-bottom: 45px; */
 }
 
-* ul {
-    font-family: monospace;
+nav {
+    display: inline;
+    float: right;
+    padding-right: 20px;
+    /* add in hover element so when i scroll over it it deepens */
+}
+
+ul {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: oblique;
     font-size: 30px;
-    color: forestgreen;
+    color: white;
+    list-style-type: none;
+    
 }
+
+ul li {
+    display: inline;
+}
+
+header {
+    background-color: #588970;
+    padding: 40px;
+    opacity: 65%;
+}
+
+#msu-photo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: right;
+}
+
+/* figure out how to make the header banner below my name - portfolio and the li next to it */
+        /* suggest going to a website and then inspecting what the website has done to do it */
+
+/* create a parent, the put the div
+can then explain where you want to child to fit inside the parent */
+ 
+/* i think it would be helpful to creat each project name as the childs name and 
+make the parents name: project-flexbox */
