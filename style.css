@@ -1,4 +1,3 @@
-/* make sure to style the other elements the same way for about me, contact, and work */
 :root {
     --background-color:
 }
@@ -8,36 +7,7 @@ body {
 }
 
 #title {
-    display: inline;
-}
-
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style:normal; 
-    font-size: 65px;
-    color: white;
-    /* padding: 45px; */
-    /* padding-bottom: 45px; */
-}
-
-nav {
-    display: inline;
-    float: right;
-    padding-right: 20px;
-    /* add in hover element so when i scroll over it it deepens */
-}
-
-ul {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: oblique;
-    font-size: 30px;
-    color: white;
-    list-style-type: none;
-    
-}
-
-ul li {
-    display: inline;
+    text-align: center;
 }
 
 header {
@@ -46,18 +16,210 @@ header {
     opacity: 65%;
 }
 
-#msu-photo {
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:normal; 
+    font-size: 65px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+nav {
+    display: flex; 
+    flex-wrap: wrap;
+    background-color: #8ce3af;
+    flex-direction: row;
+}
+
+nav li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: 24px;
+    color: white;
+    display: inline;
+    padding: 14px 20px;
+}
+
+/* .header-image-menu {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     float: right;
+} */
+/*end of header section*/
+
+* {
+    box-sizing: border-box;
 }
 
-/* figure out how to make the header banner below my name - portfolio and the li next to it */
-        /* suggest going to a website and then inspecting what the website has done to do it */
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
 
-/* create a parent, the put the div
-can then explain where you want to child to fit inside the parent */
- 
-/* i think it would be helpful to creat each project name as the childs name and 
-make the parents name: project-flexbox */
+.a-about-me {
+    flex: 1;
+    background-color:#fff;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.mary-webby-photo{
+    padding: 25px;
+    border: 5px darkolivegreen;
+    border-color: darkolivegreen;
+}
+
+.box-styling {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    height: 300px;
+    border: 2px darkcyan;
+}
+
+.t-about-me {
+    flex: 3;
+    background-color: #588970;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.a-resume {
+    flex: 1;
+    background-color:#fff;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.t-resume {
+    flex: 3;
+    background-color: #588970;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+h4 { 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.a-work {
+    flex: 1;
+    background-color:#fff;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.t-work {
+    flex: 3;
+    background-color: #588970;
+}
+
+.work-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#prework-port {
+    display: flex;
+    background-size: contain;
+    background-image: url("file:///Users/MaisieWebby/Desktop/pre-work.png");
+    background-position: center;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.a-contact {
+    flex: 1;
+    background-color:#fff;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.t-contact {
+    flex: 3;
+    background-color: #588970;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40 px;
+    color: #588970;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h5{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    color: #588970;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h6 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: #588970;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.pre-work-img {
+    max-height: 200px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color:#386956;
+    padding: 40px;
+}
+
